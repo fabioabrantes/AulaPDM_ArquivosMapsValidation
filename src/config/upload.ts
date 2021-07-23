@@ -8,6 +8,5 @@ export default {
       const fileName = `${Date.now()}-${file.originalname.trim()}`;
       callback(null,fileName);
     }
-
   })
 }
